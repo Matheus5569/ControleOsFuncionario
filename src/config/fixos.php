@@ -1,0 +1,8 @@
+<?php
+define('PATH', $_SERVER['DOCUMENT_ROOT'] . '/ControleOsFuncionario/src/');
+//define('PATH', $_SERVER['DOCUMENT_ROOT'] . 'pasta/servidor/');
+
+const SITUACAO_CHAMADO_TODOS = 0;
+const SITUACAO_CHAMADO_AGUARDANDO_ATENDIMENTO = 1;
+const SITUACAO_CHAMADO_EM_ATENDIMENTO = 2;
+const SITUACAO_CHAMADO_ENCERRADO = 3;
